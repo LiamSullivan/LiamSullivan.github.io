@@ -1,21 +1,29 @@
 html {
-	background-color: #7a23c2;
+  background-color: #7a23c2;
 }
 
 h1 {
-	color: red;
+  color: red;
 }
 
 h2 {
-	color: orange;
+  color: orange;
 }
 
 p1 {
-	border-width: 1px; 
-	border-style: dotted; 
-	border-color: black;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: black;
 }
 
 p2 {
-	color: mediumaquamarine;
+  color: mediumaquamarine;
+}
+
+button {
+  background-color: grey;
+  flex: 1 auto;
+  margin: 10px;
+  font-size: 18px;
+  line-height: 1.5;
 }
