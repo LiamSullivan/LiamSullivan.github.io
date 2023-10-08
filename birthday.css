@@ -1,5 +1,6 @@
 h1{
   color:darkblue;
+  font-size:4em
 }
 
 body{
@@ -7,6 +8,6 @@ body{
 }
 
 button{
-  
+  font-size:1.5em;
   font-weight:bold;
 }
