@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <style>
+    .container {
+      display: grid;
+      grid-template-areas:
+        "p1 p1 p2 ."
+        "p1 p1 p2 p3"
+        "p4 p4 p5 p5"
+        "p6 . p5 p5";
+      grid-template-columns: 5% 5% 5% 5%;
+      gap: 10px;
+    }
+    p1 {
+      grid-area: p1;
+      border-style: solid;
+      border-color: green;
+    }
+    p2 {
+      grid-area: p2;
+      border-style: solid;
+      border-color: yellow;
+    }
+    p3 {
+      grid-area: p3;
+      border-style: solid;
+      border-color: orange;
+    }
+    p4 {
+      grid-area: p4;
+      border-style: solid;
+      border-color: yellow;
+    }
+    p5 {
+      grid-area: p5;
+      border-style: solid;
+      border-color: green;
+    }
+    p6 {
+      grid-area: p6;
+      border-style: solid;
+      border-color: orange;
+    }
+  </style>
+  <container class="container" width="100%">
+    <p1>Box 1</p1>
+    <p2>Box 2</p2>
+    <p3>Box 3</p3>
+    <p4>Box 4</p4>
+    <p5>Box 5</p5>
+    <p6>Box 6</p6>
+  </container>
+</html>
